@@ -1,0 +1,107 @@
+
+body { 
+    margin: 0;
+	background-color:#da6f58;
+}
+
+img {
+    border: 5px solid #7b241c;
+}
+
+header {
+    position: fixed;
+	width:100%;
+	text-align:center;
+    color: white;
+    background-color:#a93226;
+    border-top: 5px solid #7b241c;
+	border-bottom: 5px solid #7b241c;
+ }
+
+.sidebar{
+    float:right;
+	width:20%;
+	height:100%;
+	text-align:center;
+    color: white;
+    background-color:#a93226;
+    border: 5px solid #7b241c;
+	overflow: hidden;
+}
+
+article{
+	text-align:center;
+	align:left;
+	width:78%;
+	color: white;
+	
+}
+.container {
+  width: 60%;           /* Or any specific width */
+  align:center;
+  position: relative;
+}
+
+.flex-container {
+    flex-wrap:wrap;
+}
+.important_text {
+  font-family: Arial Black;
+  font-size: 25px;
+  font-weight: bold;
+  color:white;
+}
+.partial_break{
+	height:5px;
+	width:75%;
+	border-width:0; 
+	color:#7b241c; 
+	background-color:#7b241c; 
+	margin:15px; padding:0;
+	position: relative;
+}
+.announcement{
+	border:10px double yellow;
+	width:75%;
+	color:yellow;
+	margin:10px; padding:0;
+	z-index:-1;
+	position: relative;
+}
+
+.bold_break{
+	height:5px; 
+	border-width:0; 
+	color:#7b241c; 
+	background-color:#7b241c; 
+	margin:0; padding:0;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
