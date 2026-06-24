@@ -1,7 +1,7 @@
 function validate() {
     var name = document.getElementById("name").value;
     var pass = document.getElementById("pass").value;
-    if (name == "aaa" && pass == "bbb") {
+    if (name == "Sukitto" && pass == "Koloszvar96") {
         alert("Login successfully");
 		event.preventDefault();
         window.location.href = "admin.html"; // Redirecting to other page.
