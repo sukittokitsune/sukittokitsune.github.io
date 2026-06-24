@@ -4,7 +4,7 @@ function validate() {
     if (name == "aaa" && pass == "bbb") {
         alert("Login successfully");
 		event.preventDefault();
-        window.location.href = "test admin.html"; // Redirecting to other page.
+        window.location.href = "admin.html"; // Redirecting to other page.
 		return false;
     } else {
 		alert("Wrong password buddy, try again.");
