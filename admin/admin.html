@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<hr class="bold_break"> <br> <hr class="bold_break">
+<article style="text-align:left;margin:15px;">
+ <div class="important_text"> Upload file </div>
+ 
+ <label for="fileInput">Choose image</label>
+ <input id="fileInput" type="file" accept="image/*" />
+ <br> <br>
+ <label for="ownerInput">GitHub owner or organization</label>
+ <input id="ownerInput" type="text" value="sukittokitsune" />
+ <br>
+ <label for="repoInput">Repository name</label>
+ <input id="repoInput" type="text" value="sukittokitsune.github.io" />
+ <br>
+ <label for="branchInput">Branch</label>
+ <input id="branchInput" type="text" value="main" />
+ <br>
+ <label for="folderInput">Target folder inside repo</label>
+ <input id="folderInput" type="text" value="artgallery" />
+ <br>
+ <div class="hint">Leave blank to upload to the repository root.</div>
+ <br>
+ <label for="tokenInput">GitHub Personal Access Token</label>
+ <input id="tokenInput" type="password" value="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" />
+ <div class="hint">Token must have appropriate repo access (classic <code>repo</code> or fine-grained repo write).</div>
+ <br>
+ <button id="uploadButton">Upload Image</button>
+ <br> <div class="important_text"> Good luck! :D </div>	
+</article>
+<hr class="bold_break"> <br> <hr class="bold_break">
+
+<script src="file_transfer.js" />
+</body>
+</html>
